@@ -13,9 +13,6 @@ jobs:
           command: date
       - run:
           name: Download composer
-          command:
-      - run:
-          name: Download composer
           command: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
       - run:
           name: Setup composer
