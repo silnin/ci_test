@@ -12,5 +12,17 @@ jobs:
           name: Print the Current Time
           command: date
       - run:
+          name: Download composer
+          command:
+      - run:
+          name: Download composer
+          command: php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+      - run:
+          name: Setup composer
+          command: php composer-setup.php
+      - run:
+          name: Composer install
+          command: php composer.phar install
+      - run:
           name: Run phpunit tests
           command: vendor/bin/phpunit
