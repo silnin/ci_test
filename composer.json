@@ -1,0 +1,13 @@
+{
+    "name": "pkeizer/ci_test",
+    "authors": [
+        {
+            "name": "Peter Keizer",
+            "email": "pkeizer@999games.nl"
+        }
+    ],
+    "require": {},
+    "require-dev": {
+        "phpunit/phpunit": "6.2.0"
+    }
+}
