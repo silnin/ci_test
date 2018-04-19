@@ -6,6 +6,6 @@ class Bla
 {
     public function addOne($value)
     {
-        return $value+2;
+        return $value+1;
     }
 }
